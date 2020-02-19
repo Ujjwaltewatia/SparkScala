@@ -51,3 +51,5 @@ for((x,y) <- colNameType){
 		newTargetDF=newTargetDF.withColumn(x,col(x)))
 	}
 }
+
+newTargetDF.printSchema()
